@@ -1,0 +1,40 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-dbcopy": {
+      "PACKAGE_NAME": "com.qm_translator.qm"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.qm_translator.qm"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.qm_translator.qm"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "com.qm_translator.qm"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.qm_translator.qm"
+    },
+    "cordova-plugin-admobpro": {
+      "PACKAGE_NAME": "com.qm_translator.qm"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "com.qm_translator.qm"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-extension": {
+      "PACKAGE_NAME": "com.qm_translator.qm"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.qm_translator.qm"
+    }
+  }
+}

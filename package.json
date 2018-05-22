@@ -1,0 +1,31 @@
+{
+  "name": "com.qm_translator.qm",
+  "version": "1.0.0",
+  "displayName": "qm_translator",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-dbcopy": {},
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-x-toast": {},
+      "cordova-plugin-admobpro": {},
+      "cordova-plugin-x-socialsharing": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "^6.3.0",
+    "cordova-plugin-admobpro": "^2.29.27",
+    "cordova-plugin-dbcopy": "git+https://github.com/an-rahulpandey/cordova-plugin-dbcopy.git",
+    "cordova-plugin-extension": "^1.5.2",
+    "cordova-plugin-splashscreen": "^4.0.3",
+    "cordova-plugin-whitelist": "1",
+    "cordova-plugin-x-socialsharing": "^5.2.1",
+    "cordova-plugin-x-toast": "^2.6.0",
+    "cordova-sqlite-storage": "^2.1.0",
+    "es6-promise-plugin": "^4.1.0"
+  }
+}

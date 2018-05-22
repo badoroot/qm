@@ -1,0 +1,152 @@
+
+body{
+	direction:rtl;
+	padding-top: 54px;
+}
+
+
+.bg-faded{
+	background-color:#20B0C0;
+}
+
+
+.navbar-toggler{
+	border:0px;
+	color:#fff;
+}
+
+.navbar-light .navbar-toggler-icon {
+background-image: url("../img/menu-bars.png");
+}
+
+.words_area{
+	margin-top:5em;
+}
+
+#words{
+	margin-top:2em;
+	padding-right:2%;
+	padding-left:2%;
+}
+
+#words li{
+	list-style:none;
+	width:100%;
+	background:#F7F7F7;
+	padding:1em 1em;
+	margin-bottom:0.5em;
+}
+
+span.left{
+	float:left;
+	margin-left:1em;
+	overflow:hidden;
+}
+
+/* /////////////////////////////////// */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 100000; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #fff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    -webkit-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+	
+	}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+	text-align:right;
+	
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#srch_txt{
+	width:100%;
+	//height:90px;
+	background:#F7F7F7;
+	border:1px solid #E1E0E0;
+	padding:0.4em;
+	padding-right:0.2em !important;
+	color:#000;
+	font-size:2em;
+	position:fixed;
+	z-index:90;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+
+
+.heart {
+  width: 70px;
+  height: 70px;
+  
+  transform: translate(-50%, -50%);  
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform:    translate(-50%, -50%);
+  -ms-transform:     translate(-50%, -50%);
+  -o-transform:      translate(-50%, -50%);
+  
+  background: url(../img/heart.png) no-repeat;
+  background-position: 0 0;
+  animation: fave-heart 0s steps(28);
+}
+
+.liked {
+   background-position: -2800px 0;
+}
+
+.heart .liked:hover  {
+   background-position: 0 0;
+}
+         
+.heart:hover {
+  background-position: -2800px 0;
+  transition: background 1s steps(28);
+}
+@keyframes fave-heart {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2800px 0;
+  }
+}

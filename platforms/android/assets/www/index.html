@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<div id="mySidenav" class="sidenav">
+  <a style= "text-align:left;" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="javascript:void(0)" onclick="loadFavorite('all')">عرض المفضلة</a>
+  <a href="market://details?id=com.qm_translator.qmp">تقييم التطبيق</a>
+  <a href="javascript:void(0)" onclick="window.plugins.socialsharing.share('قاموس عربي انجليزي اوفلاين https://play.google.com/store/apps/details?id=com.qm_translator.qm')">مشاركة التطبيق</a>
+
+</div>
+
+
+<body>
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+  <button onclick="openNav()" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span  class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">&nbsp;</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   
+  </div>
+</nav>
+
+
+<div class="search_box">
+<input type="hidden"  id="srch_counter" value="0" />
+<input type="text"  id="srch_txt" placeholder="عربي او انجليزي" />
+</div>
+
+			
+
+
+<div class='words_area'>
+<ul id="words">
+
+</ul>
+</div>
+
+</body>
+
+
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "60%";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+} 
+</script>
+</html>			
